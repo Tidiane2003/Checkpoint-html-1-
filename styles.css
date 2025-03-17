@@ -1,0 +1,51 @@
+footer{
+    color: red;
+}
+
+nav,ul,li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    margin: 10px;
+}
+
+/*appliquer la police roboto à tout le site*/
+body{
+  font-family: 'roboto'sans-serif;
+}
+/* Styliser la barre de navigation */
+.navbar {
+    background-color: rgb(116, 51, 51);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Afficher les éléments de navigation en ligne */
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Affichage en ligne */
+  .navbar li {
+    display: inline; 
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color:#333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  a:hover{
+    color: rgb(255, 0, 34);
+  }
+
+  .nav{
+    color: brown;
+  }
+
+Body,footer{
+  font-family: 'roboto',sans-serif;
+}
